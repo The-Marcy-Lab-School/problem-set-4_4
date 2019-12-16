@@ -11,6 +11,8 @@
 
       console.log(b);
       ```
+The following code will log 1. This is becuase variable b is added to the global object, so it will not throw an error when referenced from outside of its function.
+It's very clearly initialized within function func() but is not trapped within the scope and closed off from rest of the code due to it being placed within the global object.
 
 2. What does the following code log? Why?
       ```javascript
@@ -22,6 +24,10 @@
 
       console.log(context);
       ```
+
+This code will log the global window object and all its properties. This is because 'this' refers to the current window that it is called upon.
+Assigning it to the context variable does not change the window 'this' is pointing at when logged.
+
 3. What will the code below output? Explain the difference, if any, between this output and that of problem 8.
       ```javascript
       const obj = {
