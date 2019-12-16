@@ -62,6 +62,8 @@ function Rectangle(length, width) {
   Quadrilateral.call(this, length, width);
   this.length = length;
   this.width = width;
+  this.side3 = length;
+  this.side4 = width;
 }
 
 Rectangle.prototype = Object.create(Quadrilateral.prototype);
