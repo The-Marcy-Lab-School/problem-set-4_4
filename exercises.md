@@ -5,8 +5,8 @@
       ```javascript
       const countFromFive = makeCounter(5);
       countFromFive(); // 6
-      countFromFive(); // 7 
-      countFromFive(); // 9 
+      countFromFive(); // 7
+      countFromFive(); // 8
 
       const countFromOneHundred = makeCounter(100);
       countFromOneHundred(); // 101
@@ -15,8 +15,8 @@
       ```
 
 2. Create a function called , `makeFriendList`, that returns an object that mutates a private array. The object should have three methods - `addFriend`, `removeFriend`, `displayFriends`.
-  * `addFriend` takes a string argument and adds that arguments the private array of friends. `addFriend` should return `"<<friend>> successfully added."`. 
-  * `removeFriend` should take a name and remove that name from the private friend array. If found, it should return `"<<friend>> successfully removed."`. If not found, it should return `"<<friend>> not found."`. 
+  * `addFriend` takes a string argument and adds that arguments the private array of friends. `addFriend` should return `"<<friend>> successfully added."`.
+  * `removeFriend` should take a name and remove that name from the private friend array. If found, it should return `"<<friend>> successfully removed."`. If not found, it should return `"<<friend>> not found."`.
   * Lastly, `displayFriends` should return the private friends array.
 
 3. Create a constructor function, `Teacher`. Objects created with the `Teacher` function should have the following properties:
