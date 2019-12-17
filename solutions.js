@@ -7,7 +7,8 @@ const makeCounter = function(start) {
 };
 
 //Question 2
-const makeFriendList = function(arr) {
+const makeFriendList = function() {
+  const arr = [];
   return {
     addFriend(name) {
       arr.push(name);
