@@ -66,6 +66,8 @@
 
       rect.getPerimeter(); // 140
       rect.getArea();      // 1200
+
       ```
+
 
 
