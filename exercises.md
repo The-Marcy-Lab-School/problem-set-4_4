@@ -6,7 +6,7 @@
       const countFromFive = makeCounter(5);
       countFromFive(); // 6
       countFromFive(); // 7 
-      countFromFive(); // 9 
+      countFromFive(); // 8 
 
       const countFromOneHundred = makeCounter(100);
       countFromOneHundred(); // 101
