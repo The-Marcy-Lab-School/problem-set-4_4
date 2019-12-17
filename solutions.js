@@ -63,9 +63,17 @@ Quadrilateral.prototype.getPerimeter = function (){
 function Rectangle(length, width){
     Quadrilateral.call(this, length, width, length, width);
     this.getArea = function (){
-       return  this.length * this.width;
+       return  this.side1 * this.side2;
     };
 }
 
 Rectangle.prototype = Object.create(Quadrilateral.prototype);
 Rectangle.prototype.constructor = Rectangle;
+
+module.exports = {
+    makeCounter,
+    makeFriendList,
+    Teacher,
+    Quadrilateral,
+    Rectangle,
+};
